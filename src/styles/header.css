@@ -1,0 +1,41 @@
+.header {
+  position: relative;
+  top:0px;
+  left: 0px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(//d29k9pp6ge5sv1.cloudfront.net/searchStaticProducao/910/img/foto_home_desktop.jpg);
+  background-position: 100% 37%;
+  padding-top: 210px;
+  width: 100%;
+}
+.header-top-menu-wrapper {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.header-top-menu {
+	z-index: 2;
+	top:0px;
+	left:0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 26px;
+
+}
+
+
+@media screen and (max-width: 900px){
+  .header {
+    padding-top: 0px;
+    height: 400px;
+    background-size: cover;
+  }
+  .header-top-menu {
+    padding: 10px 10px;
+  }
+  .header {
+    background-position: 0% 0%;
+  }
+}

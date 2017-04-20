@@ -1,0 +1,94 @@
+.main-content {
+	margin-top: 80px;
+	height: 794px;
+	text-align: center;
+    padding: 100px 40px 75px 40px;
+    box-sizing: border-box;
+}
+.main-content .how-it-works {
+	text-align: center;
+    font-size: 36px;
+    color: #505050;
+    line-height: 36px;
+
+}
+.main-content .response {
+	text-align: center;
+    color: #a0a0a0;
+    font-size: 25px;
+	width: 835px;
+    margin-top: 20px;
+    margin: auto;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+.main-content .horizontal-line {
+	width: 700px;
+    background-color: black;
+    display: inline-block;
+    box-shadow: 0 0 1px 1px rgba(200,200,200,0.4);
+    margin: 40px 0 60px 0;
+}
+
+.main-content .content-cards-wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-content .content-cards-wrapper .content-card{
+	width: 33%;
+}
+
+.main-content .content-cards-wrapper .content-card .title {
+	width: 100%;
+    font-size: 28px;
+    color: #505050;
+    line-height: 35px;
+    display: inline-table;
+    min-height: 35px;
+    margin: 0px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.main-content .content-cards-wrapper .content-card .details{
+    color: #a0a0a0;
+    display: inline-table;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 28px;
+    width: 80%;
+    font-weight: normal;
+}
+
+.main-content .content-cards-wrapper .content-card img{
+	width: 120px;
+	height: 175px;
+}
+
+@media screen and (max-width: 1200px){
+  .main-content {
+  	height: auto;
+  }
+  .main-content .response {
+  	width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 750px){
+	.main-content {
+		padding: 20px;
+	}
+	.main-content .content-cards-wrapper {
+		display: block;
+	}
+	.main-content .content-cards-wrapper .content-card{
+		width: 100%;
+	}
+	.main-content .horizontal-line {
+		width: 90%;
+    	margin: 40px 0 60px 0;
+	}
+}

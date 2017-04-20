@@ -1,0 +1,30 @@
+.quinto-andar-na-midia {
+  height: 260px;
+  max-height: 260px;
+  background-color: #f0f0f0;
+  padding: 60px 35px;
+  box-sizing: border-box;
+}
+.quinto-andar-na-midia h3 {
+  text-align: center;
+  font-size: 22px;
+  color: #a0a0a0;
+  font-weight: normal;
+}
+
+.midia-organizations-wrapper{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+}
+
+.midia-organizations-wrapper img {
+	width: 100%;
+}
+
+@media screen and (max-width: 900px){
+  .quinto-andar-na-midia {
+  	display: none;
+  }
+}
