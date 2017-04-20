@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-This Repository contains a challenge proposed by the recruiting team from QuintoAndar. Feel Free to clone it and use as you wish.
+This Repository contains a challenge proposed by the recruiting team from [QuintoAndar](https://www.quintoandar.com.br).. Feel Free to clone it and use as you wish.
 
 
 ## Requirements
